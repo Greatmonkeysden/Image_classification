@@ -12,7 +12,7 @@ import pandas as pd
 #import matplotlib.image as mimg
 import pickle
 import cv2
-model = pickle.load(open("C:\\Users\\Shruthi\\OneDrive\\Desktop\\PA\\model.pkl",'rb'))
+model = pickle.load(open("model.pkl",'rb'))
 n=st.file_uploader("Upload the image")
 #n = "/content/images.jpg"
 button=st.button("Click to see the result")
